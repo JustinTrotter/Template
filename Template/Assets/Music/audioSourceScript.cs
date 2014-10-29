@@ -27,6 +27,12 @@ public class audioSourceScript : MonoBehaviour {
 			pitchUp ();
 		else if (targetPitch < audioPitch)					
 			pitchDown ();
+
+		//Stabilize Pitch
+		if (Mathf.Abs (audioPitch - targetPitch) < pitchRate * 0.1f) { // * .1 is offset for Time.deltaTime
+			audioPitch = targetPitch;
+			audio.pitch = audioPitch;
+		}
 	}
 
 	public void fadeIn(float rate){
