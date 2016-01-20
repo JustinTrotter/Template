@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: b1845e89de45a2544b2d151eb0b61cb0
+timeCreated: 1453247741
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: DF-Graphics_0
@@ -269,11 +271,14 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 1024
@@ -284,12 +289,14 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
+  rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
@@ -305,8 +312,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 14}
+        - {x: -12, y: 8}
+        - {x: -12, y: -10}
+        - {x: -4, y: -16}
+        - {x: 5, y: -16}
+        - {x: 9, y: -15}
+        - {x: 12, y: -11}
+        - {x: 12, y: 8}
+        - {x: 10, y: 14}
     - name: DF-Graphics_1
       rect:
         serializedVersion: 2
@@ -315,8 +332,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 12}
+        - {x: -9, y: 12}
+        - {x: -12, y: 6}
+        - {x: -12, y: -10}
+        - {x: -9, y: -11}
+        - {x: -5, y: -12}
+        - {x: 7, y: -12}
+        - {x: 10, y: -8}
+        - {x: 12, y: -5}
+        - {x: 12, y: 5}
     - name: DF-Graphics_2
       rect:
         serializedVersion: 2
@@ -325,8 +353,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 11}
+        - {x: -8, y: 11}
+        - {x: -12, y: 10}
+        - {x: -12, y: -3}
+        - {x: -11, y: -4}
+        - {x: -1, y: -13}
+        - {x: 1, y: -13}
+        - {x: 11, y: -3}
+        - {x: 12, y: 1}
+        - {x: 12, y: 7}
     - name: DF-Graphics_3
       rect:
         serializedVersion: 2
@@ -335,8 +374,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 11}
+        - {x: -4, y: 11}
+        - {x: -10, y: 2}
+        - {x: -10, y: -6}
+        - {x: -2, y: -13}
+        - {x: 1, y: -13}
+        - {x: 9, y: -6}
+        - {x: 9, y: 2}
+        - {x: 7, y: 6}
     - name: DF-Graphics_4
       rect:
         serializedVersion: 2
@@ -345,8 +394,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -6}
+        - {x: -7, y: -13}
+        - {x: 7, y: -13}
+        - {x: 11, y: -12}
+        - {x: 11, y: 2}
+        - {x: 6, y: 11}
+        - {x: -5, y: 11}
+        - {x: -12, y: 1}
     - name: DF-Graphics_5
       rect:
         serializedVersion: 2
@@ -355,8 +413,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 11}
+        - {x: -11, y: 0}
+        - {x: -11, y: -10}
+        - {x: -6, y: -13}
+        - {x: 5, y: -13}
+        - {x: 10, y: -9}
+        - {x: 10, y: 0}
+        - {x: 4, y: 11}
     - name: DF-Graphics_6
       rect:
         serializedVersion: 2
@@ -365,8 +432,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 10}
+        - {x: -10, y: 6}
+        - {x: -10, y: -6}
+        - {x: -6, y: -10}
+        - {x: 6, y: -10}
+        - {x: 10, y: -6}
+        - {x: 10, y: 6}
+        - {x: 6, y: 10}
     - name: DF-Graphics_7
       rect:
         serializedVersion: 2
@@ -375,8 +451,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_8
       rect:
         serializedVersion: 2
@@ -385,8 +466,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 14}
+        - {x: -7, y: 14}
+        - {x: -14, y: 12}
+        - {x: -14, y: -11}
+        - {x: -8, y: -14}
+        - {x: 10, y: -14}
+        - {x: 14, y: -5}
+        - {x: 14, y: 5}
+        - {x: 13, y: 8}
     - name: DF-Graphics_9
       rect:
         serializedVersion: 2
@@ -395,8 +486,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_10
       rect:
         serializedVersion: 2
@@ -405,8 +501,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 12}
+        - {x: -13, y: 3}
+        - {x: -13, y: -10}
+        - {x: -10, y: -11}
+        - {x: 4, y: -11}
+        - {x: 11, y: 3}
+        - {x: 11, y: 10}
+        - {x: 9, y: 12}
     - name: DF-Graphics_11
       rect:
         serializedVersion: 2
@@ -415,8 +520,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 12}
+        - {x: -11, y: 11}
+        - {x: -11, y: -5}
+        - {x: -10, y: -12}
+        - {x: -5, y: -15}
+        - {x: 5, y: -15}
+        - {x: 9, y: -9}
+        - {x: 9, y: 9}
+        - {x: 7, y: 12}
     - name: DF-Graphics_12
       rect:
         serializedVersion: 2
@@ -425,8 +540,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -6, y: 13}
+        - {x: -11, y: -5}
+        - {x: -11, y: -12}
+        - {x: -8, y: -13}
+        - {x: 4, y: -13}
+        - {x: 8, y: -7}
+        - {x: 8, y: 10}
+        - {x: 5, y: 14}
     - name: DF-Graphics_13
       rect:
         serializedVersion: 2
@@ -435,8 +560,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 14}
+        - {x: -12, y: -13}
+        - {x: -9, y: -15}
+        - {x: -5, y: -16}
+        - {x: 7, y: -16}
+        - {x: 12, y: -12}
+        - {x: 12, y: 14}
     - name: DF-Graphics_14
       rect:
         serializedVersion: 2
@@ -445,8 +578,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -14, y: 8}
+        - {x: -14, y: -7}
+        - {x: -10, y: -12}
+        - {x: -9, y: -14}
+        - {x: 14, y: -14}
+        - {x: 14, y: 14}
     - name: DF-Graphics_15
       rect:
         serializedVersion: 2
@@ -455,9 +596,37 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 7, z: 7, w: 7}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -12}
+        - {x: -12, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 12}
+        - {x: 12, y: 16}
+      - - {x: -9, y: 9}
+        - {x: 9, y: 9}
+        - {x: 9, y: -9}
+        - {x: -9, y: -9}
+    - name: DF-Graphics_17
       rect:
         serializedVersion: 2
         x: 64
@@ -465,9 +634,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: DF-Graphics_17
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 7, z: 6, w: 7}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -12}
+        - {x: -12, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 12}
+        - {x: 12, y: 16}
+    - name: DF-Graphics_18
       rect:
         serializedVersion: 2
         x: 96
@@ -475,9 +653,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: DF-Graphics_18
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -16, y: 9}
+        - {x: -16, y: -13}
+        - {x: -8, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 16}
+    - name: DF-Graphics_19
       rect:
         serializedVersion: 2
         x: 128
@@ -485,9 +671,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: DF-Graphics_19
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -16, y: 10}
+        - {x: -16, y: -14}
+        - {x: -14, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 9}
+        - {x: 13, y: 16}
+    - name: DF-Graphics_20
       rect:
         serializedVersion: 2
         x: 160
@@ -495,9 +690,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: DF-Graphics_20
+      outline:
+      - - {x: -11, y: 5}
+        - {x: -11, y: -3}
+        - {x: 0, y: -16}
+        - {x: 5, y: -16}
+        - {x: 11, y: -11}
+        - {x: 11, y: 2}
+        - {x: 10, y: 5}
+    - name: DF-Graphics_21
       rect:
         serializedVersion: 2
         x: 192
@@ -505,9 +708,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: DF-Graphics_21
+      outline:
+      - - {x: 1, y: 14}
+        - {x: -5, y: 7}
+        - {x: -6, y: 3}
+        - {x: -11, y: 1}
+        - {x: -11, y: -7}
+        - {x: 5, y: -7}
+        - {x: 11, y: 1}
+        - {x: 11, y: 6}
+        - {x: 7, y: 14}
+    - name: DF-Graphics_22
       rect:
         serializedVersion: 2
         x: 224
@@ -515,9 +728,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: DF-Graphics_22
+      outline:
+      - - {x: 0, y: 11}
+        - {x: -13, y: 0}
+        - {x: -13, y: -5}
+        - {x: -8, y: -11}
+        - {x: 5, y: -11}
+        - {x: 8, y: -10}
+        - {x: 8, y: 11}
+    - name: DF-Graphics_23
       rect:
         serializedVersion: 2
         x: 256
@@ -525,9 +746,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: DF-Graphics_23
+      outline:
+      - - {x: -8, y: -5}
+        - {x: 0, y: -11}
+        - {x: 10, y: -11}
+        - {x: 13, y: -10}
+        - {x: 13, y: 2}
+        - {x: 5, y: 11}
+        - {x: -8, y: 11}
+    - name: DF-Graphics_24
       rect:
         serializedVersion: 2
         x: 288
@@ -535,9 +764,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: DF-Graphics_24
+      outline:
+      - - {x: -3, y: 14}
+        - {x: -9, y: 10}
+        - {x: -9, y: -2}
+        - {x: -3, y: -7}
+        - {x: 12, y: -7}
+        - {x: 13, y: -5}
+        - {x: 13, y: 3}
+        - {x: 5, y: 14}
+    - name: DF-Graphics_25
       rect:
         serializedVersion: 2
         x: 320
@@ -545,9 +783,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: DF-Graphics_25
+      outline:
+      - - {x: -5, y: 5}
+        - {x: -11, y: -3}
+        - {x: -11, y: -8}
+        - {x: -7, y: -16}
+        - {x: 2, y: -16}
+        - {x: 11, y: -8}
+        - {x: 11, y: 5}
+    - name: DF-Graphics_26
       rect:
         serializedVersion: 2
         x: 352
@@ -555,9 +801,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: DF-Graphics_26
+      outline:
+      - - {x: 13, y: 2}
+        - {x: 6, y: 8}
+        - {x: 1, y: 8}
+        - {x: -8, y: 2}
+        - {x: -8, y: -12}
+        - {x: -6, y: -14}
+        - {x: -3, y: -14}
+        - {x: -1, y: -12}
+        - {x: 6, y: -9}
+        - {x: 13, y: -2}
+    - name: DF-Graphics_27
       rect:
         serializedVersion: 2
         x: 384
@@ -565,9 +822,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: DF-Graphics_27
+      outline:
+      - - {x: 2, y: 7}
+        - {x: -5, y: 7}
+        - {x: -11, y: 4}
+        - {x: -11, y: -3}
+        - {x: -5, y: -12}
+        - {x: 4, y: -15}
+        - {x: 10, y: -15}
+        - {x: 10, y: 1}
+    - name: DF-Graphics_28
       rect:
         serializedVersion: 2
         x: 416
@@ -575,9 +841,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: DF-Graphics_28
+      outline:
+      - - {x: 5, y: 12}
+        - {x: -9, y: 12}
+        - {x: -12, y: 6}
+        - {x: -12, y: -10}
+        - {x: -9, y: -11}
+        - {x: -5, y: -12}
+        - {x: 7, y: -12}
+        - {x: 10, y: -8}
+        - {x: 12, y: -5}
+        - {x: 12, y: 5}
+    - name: DF-Graphics_29
       rect:
         serializedVersion: 2
         x: 448
@@ -585,9 +862,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: DF-Graphics_29
+      outline:
+      - - {x: -2, y: 9}
+        - {x: -10, y: -7}
+        - {x: -10, y: -9}
+        - {x: -8, y: -10}
+        - {x: 8, y: -10}
+        - {x: 10, y: -8}
+        - {x: 2, y: 9}
+    - name: DF-Graphics_30
       rect:
         serializedVersion: 2
         x: 480
@@ -595,18 +880,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: DF-Graphics_30
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 416
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 9}
+        - {x: -10, y: 7}
+        - {x: -2, y: -10}
+        - {x: 2, y: -10}
+        - {x: 10, y: 6}
+        - {x: 10, y: 8}
+        - {x: 8, y: 9}
     - name: DF-Graphics_31
       rect:
         serializedVersion: 2
@@ -615,8 +898,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 13}
+        - {x: -5, y: 12}
+        - {x: -5, y: -9}
+        - {x: -4, y: -10}
+        - {x: 5, y: -10}
+        - {x: 5, y: 11}
+        - {x: 4, y: 13}
     - name: DF-Graphics_32
       rect:
         serializedVersion: 2
@@ -625,8 +916,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 13}
+        - {x: -7, y: 7}
+        - {x: -7, y: 1}
+        - {x: 4, y: 1}
+        - {x: 7, y: 4}
+        - {x: 7, y: 13}
     - name: DF-Graphics_33
       rect:
         serializedVersion: 2
@@ -635,8 +933,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 14}
+        - {x: -14, y: 12}
+        - {x: -14, y: -14}
+        - {x: 13, y: -14}
+        - {x: 14, y: -12}
+        - {x: 14, y: 10}
+        - {x: 12, y: 14}
     - name: DF-Graphics_34
       rect:
         serializedVersion: 2
@@ -645,8 +951,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 13}
+        - {x: -13, y: 9}
+        - {x: -13, y: -8}
+        - {x: -11, y: -13}
+        - {x: 11, y: -13}
+        - {x: 13, y: -8}
+        - {x: 13, y: 11}
+        - {x: 8, y: 13}
     - name: DF-Graphics_35
       rect:
         serializedVersion: 2
@@ -655,8 +970,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 12}
+        - {x: -12, y: -12}
+        - {x: 11, y: -12}
+        - {x: 12, y: -10}
+        - {x: 12, y: 8}
+        - {x: 11, y: 12}
     - name: DF-Graphics_36
       rect:
         serializedVersion: 2
@@ -665,8 +987,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 4}
+        - {x: 8, y: 6}
+        - {x: 6, y: 13}
+        - {x: -5, y: 13}
+        - {x: -9, y: 11}
+        - {x: -9, y: -6}
+        - {x: -4, y: -10}
+        - {x: 8, y: -10}
+        - {x: 10, y: -8}
+        - {x: 10, y: 3}
     - name: DF-Graphics_37
       rect:
         serializedVersion: 2
@@ -675,8 +1008,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 13}
+        - {x: -3, y: 11}
+        - {x: -4, y: 3}
+        - {x: -2, y: 1}
+        - {x: 2, y: 1}
+        - {x: 5, y: 6}
+        - {x: 5, y: 13}
     - name: DF-Graphics_38
       rect:
         serializedVersion: 2
@@ -685,8 +1026,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 14}
+        - {x: -6, y: 4}
+        - {x: -6, y: -5}
+        - {x: -2, y: -11}
+        - {x: 6, y: -11}
+        - {x: 6, y: 14}
     - name: DF-Graphics_39
       rect:
         serializedVersion: 2
@@ -695,8 +1043,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 14}
+        - {x: -6, y: 12}
+        - {x: -5, y: 9}
+        - {x: -6, y: 0}
+        - {x: -6, y: -9}
+        - {x: -5, y: -11}
+        - {x: 2, y: -11}
+        - {x: 6, y: -7}
+        - {x: 6, y: 7}
+        - {x: 3, y: 14}
     - name: DF-Graphics_40
       rect:
         serializedVersion: 2
@@ -705,8 +1064,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 11}
+        - {x: -11, y: -10}
+        - {x: -9, y: -11}
+        - {x: 11, y: -11}
+        - {x: 11, y: 11}
     - name: DF-Graphics_41
       rect:
         serializedVersion: 2
@@ -715,8 +1080,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_42
       rect:
         serializedVersion: 2
@@ -725,8 +1095,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -1}
+        - {x: -4, y: -2}
+        - {x: -6, y: -10}
+        - {x: -6, y: -13}
+        - {x: -4, y: -14}
+        - {x: 1, y: -14}
+        - {x: 4, y: -9}
+        - {x: 4, y: -1}
     - name: DF-Graphics_43
       rect:
         serializedVersion: 2
@@ -735,8 +1114,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 4}
+        - {x: -14, y: 1}
+        - {x: -14, y: -1}
+        - {x: -11, y: -4}
+        - {x: 11, y: -4}
+        - {x: 14, y: -1}
+        - {x: 14, y: 1}
+        - {x: 11, y: 4}
     - name: DF-Graphics_44
       rect:
         serializedVersion: 2
@@ -745,8 +1133,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -1}
+        - {x: -5, y: -8}
+        - {x: -4, y: -11}
+        - {x: 4, y: -11}
+        - {x: 5, y: -8}
+        - {x: 5, y: -1}
     - name: DF-Graphics_45
       rect:
         serializedVersion: 2
@@ -755,8 +1150,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 10}
+        - {x: -10, y: -5}
+        - {x: -10, y: -8}
+        - {x: -8, y: -10}
+        - {x: -5, y: -10}
+        - {x: 10, y: 5}
+        - {x: 10, y: 8}
+        - {x: 8, y: 10}
     - name: DF-Graphics_46
       rect:
         serializedVersion: 2
@@ -765,8 +1169,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 13}
+        - {x: -8, y: 11}
+        - {x: -8, y: -10}
+        - {x: 4, y: -10}
+        - {x: 8, y: -9}
+        - {x: 8, y: 12}
+        - {x: 6, y: 13}
     - name: DF-Graphics_47
       rect:
         serializedVersion: 2
@@ -775,8 +1187,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 12}
+        - {x: -8, y: -10}
+        - {x: 8, y: -10}
+        - {x: 8, y: 4}
+        - {x: 6, y: 12}
     - name: DF-Graphics_48
       rect:
         serializedVersion: 2
@@ -785,8 +1203,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 13}
+        - {x: -8, y: 11}
+        - {x: -8, y: -9}
+        - {x: -7, y: -10}
+        - {x: 6, y: -10}
+        - {x: 8, y: -9}
+        - {x: 8, y: 11}
+        - {x: 4, y: 13}
     - name: DF-Graphics_49
       rect:
         serializedVersion: 2
@@ -795,8 +1222,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 13}
+        - {x: -7, y: 10}
+        - {x: -8, y: 4}
+        - {x: -8, y: -10}
+        - {x: 5, y: -10}
+        - {x: 8, y: -7}
+        - {x: 8, y: 11}
+        - {x: 4, y: 13}
     - name: DF-Graphics_50
       rect:
         serializedVersion: 2
@@ -805,8 +1241,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 12}
+        - {x: -8, y: 2}
+        - {x: -8, y: -6}
+        - {x: -7, y: -7}
+        - {x: 1, y: -10}
+        - {x: 7, y: -10}
+        - {x: 9, y: -7}
+        - {x: 9, y: 2}
+        - {x: 6, y: 12}
     - name: DF-Graphics_51
       rect:
         serializedVersion: 2
@@ -815,8 +1261,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 12}
+        - {x: -8, y: 5}
+        - {x: -8, y: -10}
+        - {x: 6, y: -10}
+        - {x: 8, y: -7}
+        - {x: 8, y: 12}
     - name: DF-Graphics_52
       rect:
         serializedVersion: 2
@@ -825,8 +1278,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 13}
+        - {x: -8, y: 9}
+        - {x: -8, y: -9}
+        - {x: -6, y: -10}
+        - {x: 4, y: -10}
+        - {x: 8, y: -9}
+        - {x: 8, y: 8}
+        - {x: 6, y: 13}
     - name: DF-Graphics_53
       rect:
         serializedVersion: 2
@@ -835,8 +1297,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 12}
+        - {x: -6, y: 12}
+        - {x: -8, y: 10}
+        - {x: -8, y: 8}
+        - {x: -6, y: -10}
+        - {x: 1, y: -10}
+        - {x: 6, y: -2}
+        - {x: 8, y: 3}
+        - {x: 8, y: 10}
     - name: DF-Graphics_54
       rect:
         serializedVersion: 2
@@ -845,8 +1317,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 13}
+        - {x: -5, y: 12}
+        - {x: -8, y: 10}
+        - {x: -8, y: -8}
+        - {x: -7, y: -10}
+        - {x: 5, y: -10}
+        - {x: 8, y: -9}
+        - {x: 8, y: 9}
+        - {x: 3, y: 13}
     - name: DF-Graphics_55
       rect:
         serializedVersion: 2
@@ -855,8 +1337,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 13}
+        - {x: -5, y: 12}
+        - {x: -8, y: 9}
+        - {x: -8, y: -7}
+        - {x: -6, y: -10}
+        - {x: 7, y: -10}
+        - {x: 8, y: -7}
+        - {x: 8, y: 11}
+        - {x: 5, y: 13}
     - name: DF-Graphics_56
       rect:
         serializedVersion: 2
@@ -865,8 +1357,23 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -1}
+        - {x: -5, y: -8}
+        - {x: -4, y: -11}
+        - {x: 4, y: -11}
+        - {x: 5, y: -8}
+        - {x: 5, y: -1}
+      - - {x: -2, y: 11}
+        - {x: -5, y: 8}
+        - {x: -5, y: 4}
+        - {x: -2, y: 1}
+        - {x: 2, y: 1}
+        - {x: 5, y: 4}
+        - {x: 5, y: 8}
+        - {x: 2, y: 11}
     - name: DF-Graphics_57
       rect:
         serializedVersion: 2
@@ -875,8 +1382,24 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -1}
+        - {x: -5, y: -4}
+        - {x: -5, y: -12}
+        - {x: -4, y: -13}
+        - {x: 2, y: -13}
+        - {x: 4, y: -11}
+        - {x: 4, y: -1}
+      - - {x: -2, y: 11}
+        - {x: -5, y: 8}
+        - {x: -5, y: 4}
+        - {x: -2, y: 1}
+        - {x: 2, y: 1}
+        - {x: 5, y: 4}
+        - {x: 5, y: 8}
+        - {x: 2, y: 11}
     - name: DF-Graphics_58
       rect:
         serializedVersion: 2
@@ -885,8 +1408,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 9}
+        - {x: -8, y: 6}
+        - {x: -9, y: 3}
+        - {x: -9, y: -3}
+        - {x: -7, y: -4}
+        - {x: 4, y: -9}
+        - {x: 9, y: -9}
+        - {x: 9, y: 9}
     - name: DF-Graphics_59
       rect:
         serializedVersion: 2
@@ -895,8 +1427,41 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -4}
+        - {x: -12, y: -6}
+        - {x: -12, y: -10}
+        - {x: -10, y: -12}
+        - {x: -6, y: -12}
+        - {x: -4, y: -10}
+        - {x: -4, y: -6}
+        - {x: -6, y: -4}
+      - - {x: 6, y: -4}
+        - {x: 4, y: -6}
+        - {x: 4, y: -10}
+        - {x: 6, y: -12}
+        - {x: 10, y: -12}
+        - {x: 12, y: -10}
+        - {x: 12, y: -6}
+        - {x: 10, y: -4}
+      - - {x: -10, y: 12}
+        - {x: -12, y: 10}
+        - {x: -12, y: 6}
+        - {x: -10, y: 4}
+        - {x: -6, y: 4}
+        - {x: -4, y: 6}
+        - {x: -4, y: 10}
+        - {x: -6, y: 12}
+      - - {x: 6, y: 12}
+        - {x: 4, y: 10}
+        - {x: 4, y: 6}
+        - {x: 6, y: 4}
+        - {x: 10, y: 4}
+        - {x: 12, y: 6}
+        - {x: 12, y: 10}
+        - {x: 10, y: 12}
     - name: DF-Graphics_60
       rect:
         serializedVersion: 2
@@ -905,8 +1470,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 9}
+        - {x: -9, y: 9}
+        - {x: -9, y: -9}
+        - {x: -2, y: -9}
+        - {x: 7, y: -4}
+        - {x: 9, y: -3}
+        - {x: 9, y: 2}
+        - {x: 8, y: 5}
     - name: DF-Graphics_61
       rect:
         serializedVersion: 2
@@ -915,8 +1489,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 13}
+        - {x: -2, y: 13}
+        - {x: -7, y: 11}
+        - {x: -7, y: 6}
+        - {x: -5, y: -9}
+        - {x: -2, y: -10}
+        - {x: 2, y: -10}
+        - {x: 3, y: -8}
+        - {x: 8, y: 5}
+        - {x: 8, y: 9}
     - name: DF-Graphics_62
       rect:
         serializedVersion: 2
@@ -925,8 +1510,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 13}
+        - {x: -12, y: -11}
+        - {x: -11, y: -13}
+        - {x: 5, y: -13}
+        - {x: 12, y: -5}
+        - {x: 12, y: 12}
+        - {x: 9, y: 13}
     - name: DF-Graphics_63
       rect:
         serializedVersion: 2
@@ -935,8 +1528,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 13}
+        - {x: -5, y: 12}
+        - {x: -10, y: -5}
+        - {x: -10, y: -8}
+        - {x: -8, y: -9}
+        - {x: 10, y: -9}
+        - {x: 10, y: -3}
+        - {x: 4, y: 13}
     - name: DF-Graphics_64
       rect:
         serializedVersion: 2
@@ -945,8 +1547,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 13}
+        - {x: -8, y: -10}
+        - {x: 5, y: -10}
+        - {x: 8, y: -7}
+        - {x: 8, y: 10}
+        - {x: 5, y: 13}
     - name: DF-Graphics_65
       rect:
         serializedVersion: 2
@@ -955,8 +1564,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 13}
+        - {x: -9, y: 8}
+        - {x: -9, y: -3}
+        - {x: -7, y: -9}
+        - {x: -6, y: -10}
+        - {x: 9, y: -10}
+        - {x: 9, y: 13}
     - name: DF-Graphics_66
       rect:
         serializedVersion: 2
@@ -965,8 +1582,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 13}
+        - {x: -10, y: 13}
+        - {x: -10, y: -10}
+        - {x: 7, y: -10}
+        - {x: 10, y: -5}
+        - {x: 10, y: 6}
+        - {x: 8, y: 12}
     - name: DF-Graphics_67
       rect:
         serializedVersion: 2
@@ -975,8 +1600,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 13}
+        - {x: -7, y: -9}
+        - {x: 6, y: -9}
+        - {x: 7, y: -7}
+        - {x: 7, y: 13}
     - name: DF-Graphics_68
       rect:
         serializedVersion: 2
@@ -985,8 +1616,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 13}
+        - {x: -7, y: 11}
+        - {x: -7, y: -8}
+        - {x: -5, y: -9}
+        - {x: 2, y: -9}
+        - {x: 7, y: -3}
+        - {x: 7, y: 13}
     - name: DF-Graphics_69
       rect:
         serializedVersion: 2
@@ -995,8 +1634,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 6}
+        - {x: 10, y: 10}
+        - {x: 9, y: 13}
+        - {x: -5, y: 13}
+        - {x: -10, y: 8}
+        - {x: -10, y: -3}
+        - {x: -7, y: -10}
+        - {x: 5, y: -10}
+        - {x: 10, y: -8}
+        - {x: 10, y: 3}
+        - {x: 8, y: 5}
+        - {x: 1, y: 5}
     - name: DF-Graphics_70
       rect:
         serializedVersion: 2
@@ -1005,8 +1657,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -9, y: -9}
+        - {x: 9, y: -9}
+        - {x: 9, y: 13}
     - name: DF-Graphics_71
       rect:
         serializedVersion: 2
@@ -1015,8 +1672,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 13}
+        - {x: -7, y: -9}
+        - {x: 7, y: -9}
+        - {x: 7, y: 13}
     - name: DF-Graphics_72
       rect:
         serializedVersion: 2
@@ -1025,8 +1687,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 13}
+        - {x: -9, y: 0}
+        - {x: -9, y: -10}
+        - {x: 7, y: -10}
+        - {x: 9, y: -8}
+        - {x: 9, y: 13}
     - name: DF-Graphics_73
       rect:
         serializedVersion: 2
@@ -1035,8 +1704,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -9, y: -9}
+        - {x: 9, y: -9}
+        - {x: 9, y: 4}
+        - {x: 8, y: 13}
     - name: DF-Graphics_74
       rect:
         serializedVersion: 2
@@ -1045,8 +1720,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: -9}
+        - {x: 7, y: -9}
+        - {x: 7, y: 6}
+        - {x: 5, y: 13}
+        - {x: -7, y: 13}
     - name: DF-Graphics_75
       rect:
         serializedVersion: 2
@@ -1055,8 +1736,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 13}
+        - {x: -11, y: -9}
+        - {x: 11, y: -9}
+        - {x: 11, y: 13}
     - name: DF-Graphics_76
       rect:
         serializedVersion: 2
@@ -1065,8 +1751,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 13}
+        - {x: -9, y: 12}
+        - {x: -9, y: -7}
+        - {x: -7, y: -9}
+        - {x: 9, y: -9}
+        - {x: 9, y: 13}
     - name: DF-Graphics_77
       rect:
         serializedVersion: 2
@@ -1075,8 +1768,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 8}
+        - {x: 8, y: 13}
+        - {x: -5, y: 13}
+        - {x: -11, y: 10}
+        - {x: -11, y: -7}
+        - {x: -5, y: -11}
+        - {x: 4, y: -11}
+        - {x: 7, y: -10}
+        - {x: 10, y: -7}
+        - {x: 11, y: -4}
     - name: DF-Graphics_78
       rect:
         serializedVersion: 2
@@ -1085,8 +1789,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 13}
+        - {x: -8, y: 13}
+        - {x: -8, y: -7}
+        - {x: -6, y: -9}
+        - {x: -3, y: -9}
+        - {x: 4, y: -3}
+        - {x: 8, y: 2}
+        - {x: 8, y: 12}
     - name: DF-Graphics_79
       rect:
         serializedVersion: 2
@@ -1095,8 +1808,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 13}
+        - {x: -5, y: 13}
+        - {x: -11, y: 11}
+        - {x: -11, y: -2}
+        - {x: -6, y: -10}
+        - {x: 4, y: -12}
+        - {x: 9, y: -12}
+        - {x: 11, y: -8}
+        - {x: 11, y: 0}
+        - {x: 10, y: 7}
     - name: DF-Graphics_80
       rect:
         serializedVersion: 2
@@ -1105,8 +1829,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: -9}
+        - {x: 9, y: -9}
+        - {x: 9, y: 9}
+        - {x: 4, y: 13}
+        - {x: -9, y: 13}
     - name: DF-Graphics_81
       rect:
         serializedVersion: 2
@@ -1115,8 +1845,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 13}
+        - {x: -8, y: 10}
+        - {x: -8, y: -10}
+        - {x: 4, y: -10}
+        - {x: 8, y: -8}
+        - {x: 8, y: 13}
     - name: DF-Graphics_82
       rect:
         serializedVersion: 2
@@ -1125,8 +1862,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -9, y: -9}
+        - {x: 4, y: -9}
+        - {x: 9, y: 8}
+        - {x: 9, y: 11}
+        - {x: 7, y: 13}
     - name: DF-Graphics_83
       rect:
         serializedVersion: 2
@@ -1135,8 +1879,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -9, y: -3}
+        - {x: -5, y: -10}
+        - {x: 4, y: -10}
+        - {x: 9, y: -7}
+        - {x: 9, y: 13}
     - name: DF-Graphics_84
       rect:
         serializedVersion: 2
@@ -1145,8 +1896,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 13}
+        - {x: -10, y: -1}
+        - {x: -4, y: -9}
+        - {x: 5, y: -9}
+        - {x: 10, y: 5}
+        - {x: 10, y: 13}
     - name: DF-Graphics_85
       rect:
         serializedVersion: 2
@@ -1155,8 +1913,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 13}
+        - {x: -13, y: -3}
+        - {x: -9, y: -9}
+        - {x: 11, y: -9}
+        - {x: 13, y: 0}
+        - {x: 13, y: 13}
     - name: DF-Graphics_86
       rect:
         serializedVersion: 2
@@ -1165,8 +1930,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 12}
+        - {x: -11, y: -10}
+        - {x: 11, y: -10}
+        - {x: 11, y: 11}
+        - {x: 9, y: 12}
     - name: DF-Graphics_87
       rect:
         serializedVersion: 2
@@ -1175,8 +1946,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -9, y: 5}
+        - {x: -4, y: -9}
+        - {x: 1, y: -9}
+        - {x: 4, y: -8}
+        - {x: 9, y: 3}
+        - {x: 9, y: 13}
     - name: DF-Graphics_88
       rect:
         serializedVersion: 2
@@ -1185,8 +1964,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 13}
+        - {x: -9, y: 10}
+        - {x: -9, y: -9}
+        - {x: 7, y: -9}
+        - {x: 9, y: -8}
+        - {x: 9, y: 13}
     - name: DF-Graphics_89
       rect:
         serializedVersion: 2
@@ -1195,8 +1981,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 14}
+        - {x: -4, y: -12}
+        - {x: 8, y: -12}
+        - {x: 8, y: 12}
+        - {x: 6, y: 14}
     - name: DF-Graphics_90
       rect:
         serializedVersion: 2
@@ -1205,8 +1997,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 8}
+        - {x: -10, y: 5}
+        - {x: 3, y: -10}
+        - {x: 8, y: -10}
+        - {x: 10, y: -9}
+        - {x: 10, y: -5}
+        - {x: -5, y: 10}
+        - {x: -8, y: 10}
     - name: DF-Graphics_91
       rect:
         serializedVersion: 2
@@ -1215,8 +2016,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 14}
+        - {x: -8, y: 12}
+        - {x: -8, y: -12}
+        - {x: 4, y: -12}
+        - {x: 4, y: 14}
     - name: DF-Graphics_92
       rect:
         serializedVersion: 2
@@ -1225,8 +2032,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 12}
+        - {x: -9, y: 5}
+        - {x: -9, y: 2}
+        - {x: -7, y: 0}
+        - {x: 9, y: 0}
+        - {x: 9, y: 5}
+        - {x: 5, y: 12}
     - name: DF-Graphics_93
       rect:
         serializedVersion: 2
@@ -1235,8 +2050,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -6}
+        - {x: -11, y: -14}
+        - {x: 11, y: -14}
+        - {x: 11, y: -6}
     - name: DF-Graphics_94
       rect:
         serializedVersion: 2
@@ -1245,8 +2065,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 13}
+        - {x: -4, y: 9}
+        - {x: -4, y: 1}
+        - {x: 4, y: 1}
+        - {x: 5, y: 6}
+        - {x: 5, y: 12}
+        - {x: 3, y: 13}
     - name: DF-Graphics_95
       rect:
         serializedVersion: 2
@@ -1255,8 +2083,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 8}
+        - {x: -8, y: 6}
+        - {x: -8, y: -8}
+        - {x: -6, y: -10}
+        - {x: 7, y: -10}
+        - {x: 7, y: 6}
+        - {x: 3, y: 8}
     - name: DF-Graphics_96
       rect:
         serializedVersion: 2
@@ -1265,8 +2101,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -8, y: -10}
+        - {x: 6, y: -10}
+        - {x: 8, y: -6}
+        - {x: 8, y: 9}
+        - {x: 2, y: 14}
     - name: DF-Graphics_97
       rect:
         serializedVersion: 2
@@ -1275,8 +2118,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 8}
+        - {x: -2, y: 8}
+        - {x: -7, y: 3}
+        - {x: -7, y: -5}
+        - {x: -2, y: -10}
+        - {x: 4, y: -10}
+        - {x: 7, y: -9}
+        - {x: 7, y: 6}
     - name: DF-Graphics_98
       rect:
         serializedVersion: 2
@@ -1285,8 +2137,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 14}
+        - {x: -8, y: 7}
+        - {x: -8, y: -5}
+        - {x: -7, y: -10}
+        - {x: 8, y: -10}
+        - {x: 8, y: 13}
+        - {x: 6, y: 14}
     - name: DF-Graphics_99
       rect:
         serializedVersion: 2
@@ -1295,8 +2155,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 8}
+        - {x: -8, y: 3}
+        - {x: -8, y: -4}
+        - {x: -5, y: -9}
+        - {x: -1, y: -10}
+        - {x: 4, y: -10}
+        - {x: 7, y: -8}
+        - {x: 8, y: 3}
+        - {x: 4, y: 8}
     - name: DF-Graphics_100
       rect:
         serializedVersion: 2
@@ -1305,8 +2175,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 14}
+        - {x: -8, y: 10}
+        - {x: -8, y: -1}
+        - {x: -5, y: -9}
+        - {x: 2, y: -9}
+        - {x: 8, y: 0}
+        - {x: 8, y: 13}
+        - {x: 5, y: 14}
     - name: DF-Graphics_101
       rect:
         serializedVersion: 2
@@ -1315,8 +2194,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 8}
+        - {x: -3, y: 8}
+        - {x: -8, y: 7}
+        - {x: -8, y: -10}
+        - {x: -6, y: -15}
+        - {x: 3, y: -15}
+        - {x: 8, y: -11}
+        - {x: 8, y: 6}
     - name: DF-Graphics_102
       rect:
         serializedVersion: 2
@@ -1325,8 +2213,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 3}
+        - {x: 6, y: 11}
+        - {x: -1, y: 14}
+        - {x: -8, y: 14}
+        - {x: -8, y: -8}
+        - {x: -6, y: -9}
+        - {x: 8, y: -9}
     - name: DF-Graphics_103
       rect:
         serializedVersion: 2
@@ -1335,8 +2231,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 13}
+        - {x: -4, y: 13}
+        - {x: -8, y: 9}
+        - {x: -8, y: -9}
+        - {x: 8, y: -9}
+        - {x: 8, y: -2}
+        - {x: 4, y: 11}
     - name: DF-Graphics_104
       rect:
         serializedVersion: 2
@@ -1345,8 +2249,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 13}
+        - {x: -7, y: 8}
+        - {x: -7, y: -14}
+        - {x: 3, y: -14}
+        - {x: 5, y: -13}
+        - {x: 5, y: 12}
+        - {x: 3, y: 13}
     - name: DF-Graphics_105
       rect:
         serializedVersion: 2
@@ -1355,8 +2267,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -8, y: -9}
+        - {x: 8, y: -9}
+        - {x: 8, y: 14}
     - name: DF-Graphics_106
       rect:
         serializedVersion: 2
@@ -1365,8 +2282,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 4}
+        - {x: -2, y: -9}
+        - {x: 8, y: -9}
+        - {x: 8, y: 6}
+        - {x: 6, y: 14}
+        - {x: -6, y: 14}
+        - {x: -8, y: 12}
     - name: DF-Graphics_107
       rect:
         serializedVersion: 2
@@ -1375,8 +2300,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 6}
+        - {x: 10, y: 8}
+        - {x: -11, y: 8}
+        - {x: -12, y: 6}
+        - {x: -12, y: -8}
+        - {x: -9, y: -9}
+        - {x: 10, y: -9}
+        - {x: 12, y: -8}
     - name: DF-Graphics_108
       rect:
         serializedVersion: 2
@@ -1385,8 +2319,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 8}
+        - {x: -6, y: 8}
+        - {x: -8, y: 6}
+        - {x: -8, y: -8}
+        - {x: -6, y: -9}
+        - {x: 8, y: -9}
+        - {x: 8, y: 3}
     - name: DF-Graphics_109
       rect:
         serializedVersion: 2
@@ -1395,8 +2337,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 8}
+        - {x: -4, y: 8}
+        - {x: -9, y: 6}
+        - {x: -9, y: -5}
+        - {x: -7, y: -10}
+        - {x: 5, y: -10}
+        - {x: 8, y: -5}
+        - {x: 9, y: 1}
+        - {x: 8, y: 5}
     - name: DF-Graphics_110
       rect:
         serializedVersion: 2
@@ -1405,8 +2357,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 8}
+        - {x: -6, y: 8}
+        - {x: -8, y: 6}
+        - {x: -8, y: -14}
+        - {x: -6, y: -15}
+        - {x: 1, y: -15}
+        - {x: 7, y: -11}
+        - {x: 8, y: -6}
+        - {x: 8, y: 6}
     - name: DF-Graphics_111
       rect:
         serializedVersion: 2
@@ -1415,8 +2377,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 8}
+        - {x: -8, y: 7}
+        - {x: -8, y: -8}
+        - {x: 1, y: -15}
+        - {x: 6, y: -15}
+        - {x: 8, y: -14}
+        - {x: 8, y: 8}
     - name: DF-Graphics_112
       rect:
         serializedVersion: 2
@@ -1425,8 +2395,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 9}
+        - {x: -7, y: 7}
+        - {x: -7, y: -8}
+        - {x: -5, y: -10}
+        - {x: 0, y: -10}
+        - {x: 7, y: -1}
+        - {x: 7, y: 7}
+        - {x: 4, y: 9}
     - name: DF-Graphics_113
       rect:
         serializedVersion: 2
@@ -1435,8 +2414,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 6}
+        - {x: -7, y: -9}
+        - {x: -5, y: -10}
+        - {x: 7, y: -10}
+        - {x: 7, y: 8}
+        - {x: -3, y: 8}
     - name: DF-Graphics_114
       rect:
         serializedVersion: 2
@@ -1445,8 +2431,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 12}
+        - {x: -8, y: 10}
+        - {x: -8, y: -3}
+        - {x: -7, y: -8}
+        - {x: -3, y: -10}
+        - {x: 8, y: -10}
+        - {x: 8, y: 11}
+        - {x: 5, y: 12}
     - name: DF-Graphics_115
       rect:
         serializedVersion: 2
@@ -1455,8 +2450,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -5}
+        - {x: -4, y: -10}
+        - {x: 8, y: -10}
+        - {x: 8, y: 8}
     - name: DF-Graphics_116
       rect:
         serializedVersion: 2
@@ -1465,8 +2466,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 2}
+        - {x: -4, y: -9}
+        - {x: 2, y: -9}
+        - {x: 4, y: -8}
+        - {x: 8, y: 1}
+        - {x: 8, y: 8}
     - name: DF-Graphics_117
       rect:
         serializedVersion: 2
@@ -1475,8 +2484,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 8}
+        - {x: -12, y: 7}
+        - {x: -12, y: 4}
+        - {x: -9, y: -6}
+        - {x: -8, y: -9}
+        - {x: 9, y: -9}
+        - {x: 12, y: -4}
+        - {x: 12, y: 8}
     - name: DF-Graphics_118
       rect:
         serializedVersion: 2
@@ -1485,8 +2503,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: -6, y: -9}
+        - {x: 8, y: -9}
+        - {x: 8, y: 8}
     - name: DF-Graphics_119
       rect:
         serializedVersion: 2
@@ -1495,8 +2519,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -14}
+        - {x: -7, y: -15}
+        - {x: 0, y: -15}
+        - {x: 8, y: -4}
+        - {x: 8, y: 8}
     - name: DF-Graphics_120
       rect:
         serializedVersion: 2
@@ -1505,8 +2536,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 8}
+        - {x: -8, y: 2}
+        - {x: -8, y: -9}
+        - {x: 8, y: -9}
+        - {x: 8, y: 8}
     - name: DF-Graphics_121
       rect:
         serializedVersion: 2
@@ -1515,8 +2552,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 15}
+        - {x: -7, y: -8}
+        - {x: -3, y: -12}
+        - {x: 8, y: -12}
+        - {x: 8, y: 15}
     - name: DF-Graphics_122
       rect:
         serializedVersion: 2
@@ -1525,8 +2568,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 14}
+        - {x: -4, y: -14}
+        - {x: 1, y: -14}
+        - {x: 4, y: -13}
+        - {x: 4, y: 12}
+        - {x: 1, y: 14}
     - name: DF-Graphics_123
       rect:
         serializedVersion: 2
@@ -1535,8 +2585,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 15}
+        - {x: -7, y: 15}
+        - {x: -7, y: -12}
+        - {x: 2, y: -12}
+        - {x: 3, y: -10}
+        - {x: 8, y: -4}
+        - {x: 8, y: 4}
     - name: DF-Graphics_124
       rect:
         serializedVersion: 2
@@ -1545,8 +2603,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -6}
+        - {x: 8, y: -6}
+        - {x: 11, y: -5}
+        - {x: 11, y: 4}
+        - {x: 10, y: 6}
+        - {x: -10, y: 6}
+        - {x: -10, y: -2}
     - name: DF-Graphics_125
       rect:
         serializedVersion: 2
@@ -1555,8 +2621,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 9}
+        - {x: -8, y: 2}
+        - {x: -8, y: -8}
+        - {x: -6, y: -10}
+        - {x: 8, y: -10}
+        - {x: 8, y: 4}
+        - {x: 2, y: 9}
     - name: DF-Graphics_126
       rect:
         serializedVersion: 2
@@ -1565,8 +2639,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 12}
+        - {x: -12, y: 9}
+        - {x: -12, y: -9}
+        - {x: -9, y: -12}
+        - {x: 12, y: -12}
+        - {x: 12, y: 12}
     - name: DF-Graphics_127
       rect:
         serializedVersion: 2
@@ -1575,8 +2656,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 14}
+        - {x: -9, y: -14}
+        - {x: 0, y: -14}
+        - {x: 9, y: -5}
+        - {x: 9, y: 6}
+        - {x: 2, y: 14}
     - name: DF-Graphics_128
       rect:
         serializedVersion: 2
@@ -1585,8 +2673,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 10}
+        - {x: -11, y: 5}
+        - {x: -11, y: -3}
+        - {x: -10, y: -7}
+        - {x: -7, y: -10}
+        - {x: 8, y: -10}
+        - {x: 10, y: -8}
+        - {x: 10, y: 6}
+        - {x: 8, y: 10}
     - name: DF-Graphics_129
       rect:
         serializedVersion: 2
@@ -1595,8 +2693,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_130
       rect:
         serializedVersion: 2
@@ -1605,8 +2708,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_131
       rect:
         serializedVersion: 2
@@ -1615,8 +2723,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_132
       rect:
         serializedVersion: 2
@@ -1625,8 +2738,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_133
       rect:
         serializedVersion: 2
@@ -1635,8 +2753,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: -16}
+        - {x: 15, y: 10}
+        - {x: 10, y: 16}
+        - {x: -8, y: 16}
+        - {x: -15, y: 6}
+        - {x: -15, y: -16}
     - name: DF-Graphics_134
       rect:
         serializedVersion: 2
@@ -1645,8 +2770,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_135
       rect:
         serializedVersion: 2
@@ -1655,8 +2785,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_136
       rect:
         serializedVersion: 2
@@ -1665,8 +2800,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_137
       rect:
         serializedVersion: 2
@@ -1675,8 +2815,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_138
       rect:
         serializedVersion: 2
@@ -1685,8 +2830,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 15}
+        - {x: -3, y: 15}
+        - {x: -8, y: 11}
+        - {x: -8, y: -1}
+        - {x: -6, y: -9}
+        - {x: -2, y: -10}
+        - {x: 2, y: -10}
+        - {x: 4, y: -8}
+        - {x: 8, y: 5}
+        - {x: 8, y: 10}
     - name: DF-Graphics_139
       rect:
         serializedVersion: 2
@@ -1695,8 +2851,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_140
       rect:
         serializedVersion: 2
@@ -1705,8 +2866,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_141
       rect:
         serializedVersion: 2
@@ -1715,8 +2881,22 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: -4}
+        - {x: 12, y: -3}
+        - {x: 12, y: 12}
+        - {x: -10, y: 12}
+        - {x: -13, y: 7}
+        - {x: -13, y: -1}
+        - {x: -11, y: -12}
+        - {x: 6, y: -12}
+        - {x: 12, y: -10}
+        - {x: 12, y: -8}
+        - {x: 10, y: -6}
+        - {x: 7, y: -2}
+        - {x: 9, y: -4}
     - name: DF-Graphics_142
       rect:
         serializedVersion: 2
@@ -1725,8 +2905,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_143
       rect:
         serializedVersion: 2
@@ -1735,8 +2920,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -11, y: 14}
+        - {x: -11, y: -10}
+        - {x: -6, y: -16}
+        - {x: 5, y: -16}
+        - {x: 11, y: -15}
+        - {x: 11, y: 16}
     - name: DF-Graphics_144
       rect:
         serializedVersion: 2
@@ -1745,8 +2938,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 12}
+        - {x: -16, y: 8}
+        - {x: -16, y: -12}
+        - {x: 14, y: -12}
+        - {x: 16, y: -10}
+        - {x: 16, y: 8}
+        - {x: 12, y: 12}
     - name: DF-Graphics_145
       rect:
         serializedVersion: 2
@@ -1755,8 +2956,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_146
       rect:
         serializedVersion: 2
@@ -1765,8 +2971,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_147
       rect:
         serializedVersion: 2
@@ -1775,8 +2986,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -9, y: 14}
+        - {x: -9, y: -8}
+        - {x: -5, y: -10}
+        - {x: 5, y: -10}
+        - {x: 9, y: -3}
+        - {x: 9, y: 5}
+        - {x: 0, y: 16}
     - name: DF-Graphics_148
       rect:
         serializedVersion: 2
@@ -1785,8 +3005,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -10, y: 10}
+        - {x: -10, y: -13}
+        - {x: -6, y: -14}
+        - {x: 9, y: -14}
+        - {x: 10, y: -13}
+        - {x: 10, y: 8}
+        - {x: 9, y: 14}
     - name: DF-Graphics_149
       rect:
         serializedVersion: 2
@@ -1795,8 +3024,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 12}
+        - {x: -9, y: 8}
+        - {x: -9, y: -9}
+        - {x: -7, y: -10}
+        - {x: 6, y: -10}
+        - {x: 9, y: -9}
+        - {x: 9, y: 10}
+        - {x: 3, y: 12}
     - name: DF-Graphics_150
       rect:
         serializedVersion: 2
@@ -1805,8 +3043,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 11}
+        - {x: -10, y: 7}
+        - {x: -10, y: -2}
+        - {x: -7, y: -9}
+        - {x: 7, y: -9}
+        - {x: 11, y: -1}
+        - {x: 11, y: 7}
+        - {x: 7, y: 11}
     - name: DF-Graphics_151
       rect:
         serializedVersion: 2
@@ -1815,8 +3062,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 9}
+        - {x: -12, y: 9}
+        - {x: -12, y: -1}
+        - {x: -11, y: -3}
+        - {x: -2, y: -9}
+        - {x: 5, y: -9}
+        - {x: 12, y: 0}
+        - {x: 12, y: 6}
     - name: DF-Graphics_152
       rect:
         serializedVersion: 2
@@ -1825,8 +3081,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -9, y: 11}
+        - {x: -9, y: -11}
+        - {x: -7, y: -12}
+        - {x: 7, y: -12}
+        - {x: 8, y: -8}
+        - {x: 8, y: 13}
+        - {x: 6, y: 14}
     - name: DF-Graphics_153
       rect:
         serializedVersion: 2
@@ -1835,8 +3100,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_154
       rect:
         serializedVersion: 2
@@ -1845,8 +3115,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 15}
+        - {x: -14, y: -5}
+        - {x: -12, y: -12}
+        - {x: 9, y: -12}
+        - {x: 15, y: -4}
+        - {x: 15, y: 13}
+        - {x: 14, y: 15}
     - name: DF-Graphics_155
       rect:
         serializedVersion: 2
@@ -1855,8 +3133,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -11, y: -12}
+        - {x: -9, y: -13}
+        - {x: -4, y: -16}
+        - {x: 9, y: -16}
+        - {x: 10, y: -14}
+        - {x: 10, y: 16}
     - name: DF-Graphics_156
       rect:
         serializedVersion: 2
@@ -1865,8 +3151,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 14}
+        - {x: -11, y: -10}
+        - {x: 8, y: -10}
+        - {x: 11, y: -8}
+        - {x: 11, y: 8}
+        - {x: 4, y: 14}
     - name: DF-Graphics_157
       rect:
         serializedVersion: 2
@@ -1875,8 +3168,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 13}
+        - {x: -8, y: 2}
+        - {x: -8, y: -13}
+        - {x: 0, y: -13}
+        - {x: 6, y: -10}
+        - {x: 9, y: 2}
+        - {x: 9, y: 13}
     - name: DF-Graphics_158
       rect:
         serializedVersion: 2
@@ -1885,8 +3186,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 12}
+        - {x: -9, y: 12}
+        - {x: -12, y: 6}
+        - {x: -12, y: -10}
+        - {x: -9, y: -11}
+        - {x: -5, y: -12}
+        - {x: 7, y: -12}
+        - {x: 10, y: -8}
+        - {x: 12, y: -5}
+        - {x: 12, y: 5}
     - name: DF-Graphics_159
       rect:
         serializedVersion: 2
@@ -1895,8 +3207,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 13}
+        - {x: -12, y: 11}
+        - {x: -12, y: -8}
+        - {x: -6, y: -12}
+        - {x: 11, y: -12}
+        - {x: 12, y: -8}
+        - {x: 12, y: 13}
     - name: DF-Graphics_160
       rect:
         serializedVersion: 2
@@ -1905,8 +3225,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 16}
+        - {x: -9, y: 7}
+        - {x: -9, y: -7}
+        - {x: -5, y: -10}
+        - {x: 5, y: -10}
+        - {x: 9, y: -9}
+        - {x: 9, y: 16}
     - name: DF-Graphics_161
       rect:
         serializedVersion: 2
@@ -1915,8 +3243,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_162
       rect:
         serializedVersion: 2
@@ -1925,8 +3258,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_163
       rect:
         serializedVersion: 2
@@ -1935,8 +3273,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_164
       rect:
         serializedVersion: 2
@@ -1945,8 +3288,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_165
       rect:
         serializedVersion: 2
@@ -1955,8 +3303,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 13}
+        - {x: -7, y: 10}
+        - {x: -7, y: 1}
+        - {x: -5, y: -4}
+        - {x: 5, y: -4}
+        - {x: 7, y: -3}
+        - {x: 7, y: 8}
+        - {x: 6, y: 13}
     - name: DF-Graphics_166
       rect:
         serializedVersion: 2
@@ -1965,8 +3322,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -12, y: -14}
+        - {x: -11, y: -16}
+        - {x: 9, y: -16}
+        - {x: 12, y: -15}
+        - {x: 12, y: 16}
     - name: DF-Graphics_167
       rect:
         serializedVersion: 2
@@ -1975,8 +3339,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 12}
+        - {x: -12, y: 5}
+        - {x: -12, y: -12}
+        - {x: 12, y: -12}
+        - {x: 12, y: 12}
     - name: DF-Graphics_168
       rect:
         serializedVersion: 2
@@ -1985,8 +3355,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 12}
+        - {x: -12, y: 4}
+        - {x: -11, y: 3}
+        - {x: 5, y: -11}
+        - {x: 8, y: -12}
+        - {x: 11, y: -12}
+        - {x: 12, y: -10}
+        - {x: 12, y: 10}
+        - {x: 10, y: 12}
     - name: DF-Graphics_169
       rect:
         serializedVersion: 2
@@ -1995,8 +3375,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 10}
+        - {x: 6, y: 13}
+        - {x: 4, y: 13}
+        - {x: -1, y: 14}
+        - {x: -13, y: 14}
+        - {x: -14, y: 12}
+        - {x: -14, y: 0}
+        - {x: -10, y: -14}
+        - {x: 14, y: -14}
+        - {x: 14, y: 1}
+        - {x: 11, y: 2}
     - name: DF-Graphics_170
       rect:
         serializedVersion: 2
@@ -2005,8 +3397,26 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: -12}
+        - {x: 5, y: -14}
+        - {x: 10, y: -14}
+        - {x: 14, y: -12}
+        - {x: 14, y: -2}
+        - {x: 13, y: 1}
+        - {x: 10, y: 2}
+        - {x: 6, y: 2}
+        - {x: 1, y: -5}
+      - - {x: -15, y: 14}
+        - {x: -15, y: -7}
+        - {x: -8, y: -13}
+        - {x: -3, y: -13}
+        - {x: -1, y: -12}
+        - {x: 9, y: 5}
+        - {x: 9, y: 10}
+        - {x: 7, y: 14}
     - name: DF-Graphics_171
       rect:
         serializedVersion: 2
@@ -2015,8 +3425,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 12}
+        - {x: -3, y: 12}
+        - {x: -6, y: 11}
+        - {x: -6, y: -13}
+        - {x: -4, y: -14}
+        - {x: 6, y: -14}
+        - {x: 6, y: 0}
+        - {x: 5, y: 11}
     - name: DF-Graphics_172
       rect:
         serializedVersion: 2
@@ -2025,8 +3444,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 8}
+        - {x: -8, y: 5}
+        - {x: -8, y: -2}
+        - {x: -6, y: -7}
+        - {x: 8, y: -7}
+        - {x: 8, y: 8}
     - name: DF-Graphics_173
       rect:
         serializedVersion: 2
@@ -2035,8 +3461,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 8}
+        - {x: -7, y: -7}
+        - {x: 4, y: -7}
+        - {x: 8, y: -1}
+        - {x: 8, y: 2}
+        - {x: 4, y: 8}
     - name: DF-Graphics_174
       rect:
         serializedVersion: 2
@@ -2045,8 +3478,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_175
       rect:
         serializedVersion: 2
@@ -2055,8 +3493,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_176
       rect:
         serializedVersion: 2
@@ -2065,8 +3508,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_177
       rect:
         serializedVersion: 2
@@ -2075,8 +3523,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -16}
+        - {x: 4, y: 16}
+        - {x: -4, y: 16}
+        - {x: -4, y: -16}
     - name: DF-Graphics_178
       rect:
         serializedVersion: 2
@@ -2085,8 +3538,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -4}
+        - {x: -4, y: -16}
+        - {x: 4, y: -16}
+        - {x: 4, y: 16}
+        - {x: -4, y: 16}
+        - {x: -16, y: 4}
     - name: DF-Graphics_179
       rect:
         serializedVersion: 2
@@ -2095,8 +3555,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_180
       rect:
         serializedVersion: 2
@@ -2105,8 +3570,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -16}
+        - {x: -2, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+      - - {x: 2, y: 16}
+        - {x: 2, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_181
       rect:
         serializedVersion: 2
@@ -2115,8 +3589,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -2, y: -16}
+        - {x: -2, y: 0}
+        - {x: -6, y: 4}
+        - {x: -16, y: 4}
+      - - {x: -16, y: 16}
+        - {x: -16, y: 7}
+        - {x: 2, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_182
       rect:
         serializedVersion: 2
@@ -2125,8 +3610,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 4, y: -16}
+        - {x: 4, y: -6}
+        - {x: 0, y: -2}
+        - {x: -16, y: -2}
+      - - {x: -16, y: 16}
+        - {x: -16, y: 2}
+        - {x: 7, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_183
       rect:
         serializedVersion: 2
@@ -2135,8 +3631,23 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -2, y: -16}
+        - {x: -2, y: -6}
+        - {x: -6, y: -2}
+        - {x: -16, y: -2}
+      - - {x: 2, y: 16}
+        - {x: 2, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      - - {x: -16, y: 16}
+        - {x: -16, y: 2}
+        - {x: -6, y: 2}
+        - {x: -2, y: 6}
+        - {x: -2, y: 16}
     - name: DF-Graphics_184
       rect:
         serializedVersion: 2
@@ -2145,8 +3656,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -16}
+        - {x: -2, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+      - - {x: 2, y: 16}
+        - {x: 2, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_185
       rect:
         serializedVersion: 2
@@ -2155,8 +3675,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -2, y: -16}
+        - {x: -2, y: -6}
+        - {x: -6, y: -2}
+        - {x: -16, y: -2}
+      - - {x: -16, y: 16}
+        - {x: -16, y: 2}
+        - {x: 2, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_186
       rect:
         serializedVersion: 2
@@ -2165,8 +3696,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 16}
+        - {x: -16, y: -2}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      - - {x: -16, y: 16}
+        - {x: -16, y: 2}
+        - {x: -6, y: 2}
+        - {x: -2, y: 6}
+        - {x: -2, y: 16}
     - name: DF-Graphics_187
       rect:
         serializedVersion: 2
@@ -2175,8 +3717,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 16}
+        - {x: -16, y: -7}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -4}
+        - {x: -6, y: -4}
+        - {x: -2, y: 0}
+        - {x: -2, y: 16}
     - name: DF-Graphics_188
       rect:
         serializedVersion: 2
@@ -2185,8 +3738,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 16}
+        - {x: -16, y: -2}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      - - {x: -16, y: 16}
+        - {x: -16, y: 2}
+        - {x: 0, y: 2}
+        - {x: 4, y: 6}
+        - {x: 4, y: 16}
     - name: DF-Graphics_189
       rect:
         serializedVersion: 2
@@ -2195,8 +3759,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -4}
+        - {x: -4, y: -16}
+        - {x: 4, y: -16}
+        - {x: 4, y: 0}
+        - {x: 0, y: 4}
+        - {x: -16, y: 4}
     - name: DF-Graphics_190
       rect:
         serializedVersion: 2
@@ -2205,8 +3776,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 16}
+        - {x: -4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 16, y: -4}
+        - {x: 16, y: 4}
+        - {x: 5, y: 16}
     - name: DF-Graphics_191
       rect:
         serializedVersion: 2
@@ -2215,8 +3793,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 16}
+        - {x: -16, y: 4}
+        - {x: -16, y: -4}
+        - {x: 16, y: -4}
+        - {x: 16, y: 4}
+        - {x: 4, y: 16}
     - name: DF-Graphics_192
       rect:
         serializedVersion: 2
@@ -2225,8 +3810,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -4}
+        - {x: -4, y: -16}
+        - {x: 4, y: -16}
+        - {x: 16, y: -4}
+        - {x: 16, y: 4}
+        - {x: -16, y: 4}
     - name: DF-Graphics_193
       rect:
         serializedVersion: 2
@@ -2235,8 +3827,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 16}
+        - {x: -4, y: -16}
+        - {x: 4, y: -16}
+        - {x: 16, y: -4}
+        - {x: 16, y: 4}
+        - {x: 4, y: 16}
     - name: DF-Graphics_194
       rect:
         serializedVersion: 2
@@ -2245,8 +3844,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -4}
+        - {x: 16, y: -4}
+        - {x: 16, y: 4}
+        - {x: -16, y: 4}
     - name: DF-Graphics_195
       rect:
         serializedVersion: 2
@@ -2255,8 +3859,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_196
       rect:
         serializedVersion: 2
@@ -2265,8 +3874,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_197
       rect:
         serializedVersion: 2
@@ -2275,8 +3889,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -16}
+        - {x: -2, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+      - - {x: 2, y: 16}
+        - {x: 2, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_198
       rect:
         serializedVersion: 2
@@ -2285,8 +3908,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -2}
+        - {x: -2, y: 16}
+      - - {x: 2, y: 16}
+        - {x: 2, y: 6}
+        - {x: 6, y: 2}
+        - {x: 16, y: 2}
+        - {x: 16, y: 16}
     - name: DF-Graphics_199
       rect:
         serializedVersion: 2
@@ -2295,8 +3929,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: -2, y: -16}
+        - {x: 16, y: 2}
+        - {x: 16, y: 16}
+      - - {x: 2, y: -6}
+        - {x: 2, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -2}
+        - {x: 6, y: -2}
     - name: DF-Graphics_200
       rect:
         serializedVersion: 2
@@ -2305,8 +3950,23 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -2}
+        - {x: -16, y: -2}
+      - - {x: -16, y: 16}
+        - {x: -16, y: 2}
+        - {x: -6, y: 2}
+        - {x: -2, y: 6}
+        - {x: -2, y: 16}
+      - - {x: 2, y: 16}
+        - {x: 2, y: 6}
+        - {x: 6, y: 2}
+        - {x: 16, y: 2}
+        - {x: 16, y: 16}
     - name: DF-Graphics_201
       rect:
         serializedVersion: 2
@@ -2315,8 +3975,23 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -2, y: -16}
+        - {x: -2, y: -6}
+        - {x: -6, y: -2}
+        - {x: -16, y: -2}
+      - - {x: 2, y: -6}
+        - {x: 2, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -2}
+        - {x: 6, y: -2}
+      - - {x: -16, y: 16}
+        - {x: -16, y: 2}
+        - {x: 16, y: 2}
+        - {x: 16, y: 16}
     - name: DF-Graphics_202
       rect:
         serializedVersion: 2
@@ -2325,8 +4000,23 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -16}
+        - {x: -2, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+      - - {x: 2, y: -6}
+        - {x: 2, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -2}
+        - {x: 6, y: -2}
+      - - {x: 2, y: 16}
+        - {x: 2, y: 6}
+        - {x: 6, y: 2}
+        - {x: 16, y: 2}
+        - {x: 16, y: 16}
     - name: DF-Graphics_203
       rect:
         serializedVersion: 2
@@ -2335,8 +4025,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -2}
+        - {x: -16, y: -2}
+      - - {x: -16, y: 16}
+        - {x: -16, y: 2}
+        - {x: 16, y: 2}
+        - {x: 16, y: 16}
     - name: DF-Graphics_204
       rect:
         serializedVersion: 2
@@ -2345,8 +4044,29 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -2, y: -16}
+        - {x: -2, y: -6}
+        - {x: -6, y: -2}
+        - {x: -16, y: -2}
+      - - {x: 2, y: -6}
+        - {x: 2, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -2}
+        - {x: 6, y: -2}
+      - - {x: -16, y: 16}
+        - {x: -16, y: 2}
+        - {x: -6, y: 2}
+        - {x: -2, y: 6}
+        - {x: -2, y: 16}
+      - - {x: 2, y: 16}
+        - {x: 2, y: 6}
+        - {x: 6, y: 2}
+        - {x: 16, y: 2}
+        - {x: 16, y: 16}
     - name: DF-Graphics_205
       rect:
         serializedVersion: 2
@@ -2355,8 +4075,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -2}
+        - {x: -16, y: -2}
+      - - {x: -16, y: 16}
+        - {x: -16, y: 2}
+        - {x: 16, y: 2}
+        - {x: 16, y: 16}
     - name: DF-Graphics_206
       rect:
         serializedVersion: 2
@@ -2365,8 +4094,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_207
       rect:
         serializedVersion: 2
@@ -2375,8 +4109,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -2}
+        - {x: -16, y: -2}
+      - - {x: -16, y: 16}
+        - {x: -16, y: 2}
+        - {x: 16, y: 2}
+        - {x: 16, y: 16}
     - name: DF-Graphics_208
       rect:
         serializedVersion: 2
@@ -2385,8 +4128,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_209
       rect:
         serializedVersion: 2
@@ -2395,8 +4143,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -7}
+        - {x: -2, y: 16}
+      - - {x: 2, y: 16}
+        - {x: 2, y: 0}
+        - {x: 6, y: -4}
+        - {x: 16, y: -4}
+        - {x: 16, y: 16}
     - name: DF-Graphics_210
       rect:
         serializedVersion: 2
@@ -2405,8 +4164,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -2}
+        - {x: -7, y: 16}
+      - - {x: -4, y: 16}
+        - {x: -4, y: 6}
+        - {x: 0, y: 2}
+        - {x: 16, y: 2}
+        - {x: 16, y: 16}
     - name: DF-Graphics_211
       rect:
         serializedVersion: 2
@@ -2415,8 +4185,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: -7, y: -16}
+        - {x: 16, y: 2}
+        - {x: 16, y: 16}
+      - - {x: -4, y: -6}
+        - {x: -4, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -2}
+        - {x: 0, y: -2}
     - name: DF-Graphics_212
       rect:
         serializedVersion: 2
@@ -2425,8 +4206,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: -2, y: -16}
+        - {x: 16, y: 7}
+        - {x: 16, y: 16}
+      - - {x: 2, y: 0}
+        - {x: 2, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 4}
+        - {x: 6, y: 4}
     - name: DF-Graphics_213
       rect:
         serializedVersion: 2
@@ -2435,8 +4227,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -16}
+        - {x: -2, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+      - - {x: 2, y: 16}
+        - {x: 2, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_214
       rect:
         serializedVersion: 2
@@ -2445,8 +4246,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -2}
+        - {x: -16, y: -2}
+      - - {x: -16, y: 16}
+        - {x: -16, y: 2}
+        - {x: 16, y: 2}
+        - {x: 16, y: 16}
     - name: DF-Graphics_215
       rect:
         serializedVersion: 2
@@ -2455,8 +4265,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 16}
+        - {x: -16, y: 4}
+        - {x: -16, y: -4}
+        - {x: 0, y: -4}
+        - {x: 4, y: 0}
+        - {x: 4, y: 16}
     - name: DF-Graphics_216
       rect:
         serializedVersion: 2
@@ -2465,8 +4282,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 0}
+        - {x: -4, y: -16}
+        - {x: 4, y: -16}
+        - {x: 16, y: -4}
+        - {x: 16, y: 4}
+        - {x: 0, y: 4}
     - name: DF-Graphics_217
       rect:
         serializedVersion: 2
@@ -2475,8 +4299,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_218
       rect:
         serializedVersion: 2
@@ -2485,8 +4314,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 2}
+        - {x: -16, y: 2}
     - name: DF-Graphics_219
       rect:
         serializedVersion: 2
@@ -2495,8 +4329,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -16}
+        - {x: 2, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
     - name: DF-Graphics_220
       rect:
         serializedVersion: 2
@@ -2505,8 +4344,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 16}
+        - {x: -2, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_221
       rect:
         serializedVersion: 2
@@ -2515,8 +4359,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -2}
+        - {x: 16, y: -2}
+        - {x: 16, y: 16}
     - name: DF-Graphics_222
       rect:
         serializedVersion: 2
@@ -2525,8 +4374,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 9}
+        - {x: -9, y: 6}
+        - {x: -9, y: -2}
+        - {x: -8, y: -7}
+        - {x: 8, y: -7}
+        - {x: 9, y: -6}
+        - {x: 9, y: 8}
+        - {x: 8, y: 9}
     - name: DF-Graphics_223
       rect:
         serializedVersion: 2
@@ -2535,8 +4393,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 13}
+        - {x: -8, y: 12}
+        - {x: -8, y: -15}
+        - {x: 0, y: -15}
+        - {x: 9, y: -7}
+        - {x: 9, y: 12}
+        - {x: 4, y: 13}
     - name: DF-Graphics_224
       rect:
         serializedVersion: 2
@@ -2545,8 +4411,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 12}
+        - {x: -10, y: 12}
+        - {x: -12, y: 10}
+        - {x: -12, y: -11}
+        - {x: -10, y: -12}
+        - {x: -4, y: -12}
+        - {x: 12, y: 4}
+        - {x: 12, y: 10}
     - name: DF-Graphics_225
       rect:
         serializedVersion: 2
@@ -2555,8 +4430,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 14}
+        - {x: -14, y: 14}
+        - {x: -16, y: 12}
+        - {x: -16, y: 10}
+        - {x: -15, y: 8}
+        - {x: -13, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: 0}
+        - {x: 16, y: 12}
     - name: DF-Graphics_226
       rect:
         serializedVersion: 2
@@ -2565,8 +4450,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 16}
+        - {x: 2, y: 16}
+        - {x: -11, y: 7}
+        - {x: -15, y: -7}
+        - {x: -16, y: -13}
+        - {x: -13, y: -16}
+        - {x: -6, y: -16}
+        - {x: 9, y: -9}
+        - {x: 16, y: 3}
+        - {x: 16, y: 11}
     - name: DF-Graphics_227
       rect:
         serializedVersion: 2
@@ -2575,8 +4471,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 8}
+        - {x: -16, y: -3}
+        - {x: -10, y: -11}
+        - {x: -8, y: -13}
+        - {x: 15, y: -13}
+        - {x: 16, y: -12}
+        - {x: 16, y: 8}
     - name: DF-Graphics_228
       rect:
         serializedVersion: 2
@@ -2585,8 +4489,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 13}
+        - {x: -5, y: 13}
+        - {x: -10, y: 10}
+        - {x: -12, y: 4}
+        - {x: -12, y: -6}
+        - {x: -8, y: -14}
+        - {x: 8, y: -14}
+        - {x: 11, y: -13}
+        - {x: 13, y: -5}
+        - {x: 13, y: 3}
+        - {x: 11, y: 8}
     - name: DF-Graphics_229
       rect:
         serializedVersion: 2
@@ -2595,8 +4511,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 8}
+        - {x: -7, y: 6}
+        - {x: -7, y: -1}
+        - {x: -1, y: -10}
+        - {x: 8, y: -10}
+        - {x: 8, y: 6}
+        - {x: 7, y: 8}
     - name: DF-Graphics_230
       rect:
         serializedVersion: 2
@@ -2605,8 +4529,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 9}
+        - {x: -12, y: 4}
+        - {x: -12, y: -6}
+        - {x: -11, y: -7}
+        - {x: 12, y: -7}
+        - {x: 13, y: -5}
+        - {x: 13, y: 5}
+        - {x: 3, y: 9}
     - name: DF-Graphics_231
       rect:
         serializedVersion: 2
@@ -2615,8 +4548,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_232
       rect:
         serializedVersion: 2
@@ -2625,8 +4563,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: 6}
+        - {x: -14, y: -8}
+        - {x: -8, y: -14}
+        - {x: 9, y: -14}
+        - {x: 13, y: -8}
+        - {x: 16, y: 0}
+        - {x: 16, y: 14}
     - name: DF-Graphics_233
       rect:
         serializedVersion: 2
@@ -2635,8 +4583,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 13}
+        - {x: -9, y: 8}
+        - {x: -9, y: -7}
+        - {x: -7, y: -11}
+        - {x: 6, y: -11}
+        - {x: 9, y: -10}
+        - {x: 9, y: 10}
+        - {x: 7, y: 13}
     - name: DF-Graphics_234
       rect:
         serializedVersion: 2
@@ -2645,8 +4602,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 14}
+        - {x: -6, y: 14}
+        - {x: -9, y: 13}
+        - {x: -16, y: 3}
+        - {x: -16, y: -10}
+        - {x: -10, y: -16}
+        - {x: 4, y: -16}
+        - {x: 14, y: -10}
+        - {x: 14, y: 0}
+        - {x: 13, y: 5}
     - name: DF-Graphics_235
       rect:
         serializedVersion: 2
@@ -2655,8 +4623,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 10}
+        - {x: -7, y: 10}
+        - {x: -10, y: 5}
+        - {x: -10, y: -5}
+        - {x: -4, y: -13}
+        - {x: 4, y: -13}
+        - {x: 10, y: -4}
+        - {x: 10, y: 5}
     - name: DF-Graphics_236
       rect:
         serializedVersion: 2
@@ -2665,8 +4642,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 10}
+        - {x: -16, y: -4}
+        - {x: -9, y: -11}
+        - {x: 12, y: -11}
+        - {x: 16, y: -10}
+        - {x: 16, y: 10}
     - name: DF-Graphics_237
       rect:
         serializedVersion: 2
@@ -2675,8 +4659,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 9}
+        - {x: -4, y: 9}
+        - {x: -8, y: 6}
+        - {x: -8, y: -10}
+        - {x: 8, y: -10}
+        - {x: 8, y: 4}
     - name: DF-Graphics_238
       rect:
         serializedVersion: 2
@@ -2685,8 +4676,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 10}
+        - {x: -12, y: -10}
+        - {x: 12, y: -10}
+        - {x: 12, y: 10}
     - name: DF-Graphics_239
       rect:
         serializedVersion: 2
@@ -2695,8 +4691,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 10}
+        - {x: -9, y: 8}
+        - {x: -9, y: -10}
+        - {x: 9, y: -10}
+        - {x: 9, y: 9}
+        - {x: 6, y: 10}
     - name: DF-Graphics_240
       rect:
         serializedVersion: 2
@@ -2705,8 +4708,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 13}
+        - {x: -10, y: 13}
+        - {x: -12, y: 12}
+        - {x: -12, y: -7}
+        - {x: -8, y: -13}
+        - {x: 5, y: -13}
+        - {x: 12, y: -8}
+        - {x: 12, y: -1}
+        - {x: 9, y: 6}
     - name: DF-Graphics_241
       rect:
         serializedVersion: 2
@@ -2715,8 +4728,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 13}
+        - {x: -10, y: 3}
+        - {x: -12, y: -2}
+        - {x: -12, y: -7}
+        - {x: -6, y: -13}
+        - {x: 6, y: -13}
+        - {x: 9, y: -12}
+        - {x: 12, y: -8}
+        - {x: 12, y: 13}
     - name: DF-Graphics_242
       rect:
         serializedVersion: 2
@@ -2725,8 +4748,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 15}
+        - {x: -4, y: 8}
+        - {x: -4, y: -16}
+        - {x: 4, y: -16}
+        - {x: 10, y: 9}
+        - {x: 10, y: 13}
+        - {x: 7, y: 15}
     - name: DF-Graphics_243
       rect:
         serializedVersion: 2
@@ -2735,8 +4766,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 16}
+        - {x: -4, y: 14}
+        - {x: -10, y: -8}
+        - {x: -10, y: -14}
+        - {x: -7, y: -15}
+        - {x: 0, y: -15}
+        - {x: 4, y: -11}
+        - {x: 4, y: 16}
     - name: DF-Graphics_244
       rect:
         serializedVersion: 2
@@ -2745,8 +4785,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: DF-Graphics_245
       rect:
         serializedVersion: 2
@@ -2755,8 +4800,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 8}
+        - {x: -11, y: -8}
+        - {x: 11, y: -8}
+        - {x: 11, y: 8}
     - name: DF-Graphics_246
       rect:
         serializedVersion: 2
@@ -2765,8 +4815,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 9}
+        - {x: -6, y: 3}
+        - {x: -3, y: 0}
+        - {x: 1, y: 0}
+        - {x: 6, y: 3}
+        - {x: 6, y: 9}
+        - {x: 2, y: 13}
+        - {x: -2, y: 13}
     - name: DF-Graphics_247
       rect:
         serializedVersion: 2
@@ -2775,8 +4834,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 7}
+        - {x: -7, y: -6}
+        - {x: -6, y: -7}
+        - {x: 7, y: -7}
+        - {x: 7, y: 7}
     - name: DF-Graphics_248
       rect:
         serializedVersion: 2
@@ -2785,8 +4850,16 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 13}
+        - {x: -13, y: -3}
+        - {x: -12, y: -9}
+        - {x: -5, y: -13}
+        - {x: 11, y: -13}
+        - {x: 13, y: -7}
+        - {x: 13, y: 13}
     - name: DF-Graphics_249
       rect:
         serializedVersion: 2
@@ -2795,8 +4868,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -14, y: 11}
+        - {x: -14, y: -8}
+        - {x: -10, y: -12}
+        - {x: -2, y: -16}
+        - {x: 8, y: -16}
+        - {x: 14, y: -11}
+        - {x: 14, y: 11}
+        - {x: 13, y: 16}
     - name: DF-Graphics_250
       rect:
         serializedVersion: 2
@@ -2805,8 +4888,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 10}
+        - {x: -6, y: 10}
+        - {x: -6, y: -2}
+        - {x: 4, y: -2}
+        - {x: 6, y: 0}
+        - {x: 6, y: 7}
     - name: DF-Graphics_251
       rect:
         serializedVersion: 2
@@ -2815,8 +4905,30 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: -7}
+        - {x: -1, y: -8}
+        - {x: 2, y: -4}
+        - {x: 7, y: -3}
+        - {x: 9, y: -1}
+        - {x: 14, y: 0}
+        - {x: 16, y: 2}
+        - {x: 16, y: 14}
+        - {x: 9, y: 16}
+        - {x: -14, y: 16}
+        - {x: -16, y: 14}
+        - {x: -16, y: -2}
+        - {x: -11, y: -2}
+        - {x: -9, y: 0}
+        - {x: -16, y: -11}
+        - {x: -16, y: -12}
+        - {x: -7, y: -16}
+        - {x: 11, y: -16}
+        - {x: 16, y: -11}
+        - {x: 16, y: -4}
+        - {x: 10, y: -1}
     - name: DF-Graphics_252
       rect:
         serializedVersion: 2
@@ -2825,8 +4937,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 9}
+        - {x: -9, y: -9}
+        - {x: 9, y: -9}
+        - {x: 9, y: 9}
     - name: DF-Graphics_253
       rect:
         serializedVersion: 2
@@ -2835,7 +4952,17 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 13}
+        - {x: -16, y: 13}
+        - {x: -16, y: -5}
+        - {x: -11, y: -14}
+        - {x: 12, y: -14}
+        - {x: 16, y: -9}
+    outline: []
   spritePackingTag: 
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
