@@ -1,1 +1,5 @@
 - Clean up and unhardcodeify ManageManagerDemo code
+- Dialogue Manager
+	- UI (Done)
+	- Scrolling Text
+	- Bit-voice Text
