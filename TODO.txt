@@ -3,7 +3,7 @@
 	- UI (Done)	1/19/16
 	- Scrolling Text (Done) 1/20/16
 	- Bit-voice Text (Done) 1/20/16
-	- Animate Portrait
+	- Animate Portrait (Done) 1/21/16
 	- Toggle Portrait
 	- Read Lines from Textfile
 	- Demo with 3 characters with 3 lines each
