@@ -12,7 +12,6 @@ public class textAutoType : MonoBehaviour {
 	public float letterPause = 0.1f;
 	public float sentancePause = 50f;
 
-
 	void Awake() {
 		text = GetComponent<Text>();
 		audio = GetComponent<AudioSource>();
@@ -41,13 +40,20 @@ public class textAutoType : MonoBehaviour {
 			text.text += letter;
 			if (audio && letter != ' ') {
 				audio.PlayOneShot (audio.clip);
-				if (letter == '.' || letter == ',' || letter == '!' || letter == '?' || letter == ';')
+				if (letter == '.' || letter == ',' || letter == '!' || letter == '?' || letter == ';') {
+					speaking = false;
 					yield return new WaitForSeconds (letPause * senPause);
-				else
+				} else {
+					speaking = true;
 					yield return 0;
+				}
 			}
 			yield return new WaitForSeconds (letPause);
 		}
 		speaking = false;
+	}
+
+	public bool getSpeaking(){
+		return speaking;
 	}
 }
